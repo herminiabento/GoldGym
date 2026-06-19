@@ -40,62 +40,6 @@ Gold Gym es una plataforma web construida con Laravel que cuenta con un panel de
 * Composer
 * Vite
 
-## Instalación
-
-Clonar el repositorio:
-
-```bash
-git clone https://github.com/herminiabento/GoldGym.git
-```
-
-Ingresar al proyecto:
-
-```bash
-cd GoldGym
-```
-
-Instalar dependencias de PHP:
-
-```bash
-composer install
-```
-
-Instalar dependencias de JavaScript:
-
-```bash
-npm install
-```
-
-Crear archivo de entorno:
-
-```bash
-cp .env.example .env
-```
-
-Generar clave de aplicación:
-
-```bash
-php artisan key:generate
-```
-
-Configurar la base de datos en el archivo `.env` y ejecutar:
-
-```bash
-php artisan migrate
-```
-
-Iniciar el servidor:
-
-```bash
-php artisan serve
-```
-
-Compilar assets:
-
-```bash
-npm run dev
-```
-
 ## Integración de pagos
 
 La aplicación utiliza Mercado Pago para procesar pagos de membresías y planes. Es necesario configurar las credenciales correspondientes en el archivo `.env`.
